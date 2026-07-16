@@ -2,78 +2,143 @@
 
 ## 📌 Overview
 
-Online Quiz System (OQS) is a full-stack web application designed to conduct and manage online quizzes through a role-based platform.
+Online Quiz System (OQS) is a full-stack role-based quiz management platform that enables students, teachers, and administrators to interact through separate dashboards.
 
-The application provides separate access portals for **Students, Teachers, and Admins**, allowing each user type to perform specific tasks. Students can participate in quizzes, teachers can manage quiz content, and admins can control and monitor the overall system.
-
-The goal of this project is to provide a simple, secure, and efficient online examination platform.
+The application provides a complete online learning and assessment environment where teachers can create and manage quizzes, students can participate in quizzes and practice based on topics, and administrators can monitor the complete system.
 
 ---
 
-## ✨ Key Features
+# ✨ Features
 
-## 👨‍🎓 Student Module
+## 👨‍🎓 Student Dashboard
 
 Students can:
 
-- Register and log in securely
-- Access available quizzes
-- Attempt multiple-choice quizzes
-- Submit answers
-- View quiz results and performance
+- Register and log in to their account
+- View quizzes posted by teachers
+- Attempt online quizzes
+- Get quiz scores and performance reports
+- Practice quizzes based on selected topics
+- Improve knowledge through topic-wise preparation
+- Track their learning progress
 
 ---
 
-## 👩‍🏫 Teacher Module
+## 👩‍🏫 Teacher Dashboard
 
 Teachers can:
 
 - Log in through the teacher portal
-- Create and manage quizzes
-- Add multiple-choice questions
-- Update quiz information
-- View student participation details
+- Create and publish quizzes for students
+- Generate quizzes for different topics
+- Manage quiz questions
+- View student participation
+- Analyze student performance reports
+- Track student results and progress
 
 ---
 
-## 🛠️ Admin Module
+## 🛠️ Admin Dashboard
 
 Admins can:
 
-- Log in through the admin portal
-- Manage users (students and teachers)
-- Monitor quizzes
+- Access the complete system dashboard
+- View student information
+- View teacher information
+- Monitor quizzes and activities
 - Manage overall application data
 - Maintain system operations
 
 ---
 
-## 🔄 Application Workflow
+# 🔄 Application Workflow
 
 ```
-                 Online Quiz System
+                         Online Quiz System
 
-                        |
-        ---------------------------------
-        |               |               |
-     Student         Teacher          Admin
+                                |
+              ---------------------------------------
+              |                  |                  |
+           Student            Teacher             Admin
 
-        |               |               |
+              |                  |                  |
 
-  Attempt Quiz    Create Quiz     Manage System
+      Take Quizzes       Create Quizzes       Manage Users
 
-        |
-   View Results
+      Practice          View Reports          Monitor Data
+
+      View Results      Analyze Results      System Control
 ```
 
 ---
 
-## 🌟 Highlights
+# 🌟 Key Highlights
 
-- Role-based login system
-- Separate dashboards for Student, Teacher, and Admin
-- Secure authentication
-- Interactive quiz experience
-- Full-stack architecture
-- REST API based communication
-- Database integration
+- Role-based authentication system
+- Three separate user portals:
+  - Student
+  - Teacher
+  - Admin
+- Student learning and practice module
+- Teacher quiz creation and reporting system
+- Admin monitoring dashboard
+- Topic-based practice quizzes
+- Performance tracking
+- Full-stack web architecture
+
+---
+
+# 🛠️ Tech Stack
+
+## Frontend
+- React.js
+- JavaScript
+- HTML5
+- CSS3
+- Vite
+
+## Backend
+- Java
+- Spring Boot
+- Spring Data JPA
+- REST APIs
+- Maven
+
+## Database
+- MySQL
+
+## Tools
+- Git & GitHub
+- Postman
+- VS Code
+
+---
+
+# 📂 Project Structure
+
+```
+Online Quiz System
+│
+├── frontend
+│   ├── src
+│   ├── package.json
+│   └── vite.config.js
+│
+├── backend
+│   ├── src
+│   ├── pom.xml
+│   └── application.properties
+│
+└── README.md
+```
+
+---
+
+# 🚀 Future Enhancements
+
+- AI-based quiz generation
+- Timer-based examinations
+- Leaderboard and ranking system
+- Advanced student analytics
+- Email notifications
+- JWT authentication
